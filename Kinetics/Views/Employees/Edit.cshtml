@@ -1,0 +1,103 @@
+﻿@model Kinetics.Models.Employee
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<!-- Include shared header -->
+@await Html.PartialAsync("_SharedTop")
+
+<h4>Edit Employee</h4>
+<form asp-action="Edit" method="post" enctype="multipart/form-data">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="EmployeeID" />
+                <div class="form-group">
+                    <label asp-for="FirstName" class="control-label"></label>
+                    <input asp-for="FirstName" class="form-control" />
+                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="LastName" class="control-label"></label>
+                    <input asp-for="LastName" class="form-control" />
+                    <span asp-validation-for="LastName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Email" class="control-label"></label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Staff ID</label>
+                    <input asp-for="StaffID" class="form-control" />
+                    <span asp-validation-for="StaffID" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Phone" class="control-label"></label>
+                    <input asp-for="Phone" class="form-control" />
+                    <span asp-validation-for="Phone" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="HireDate" class="control-label"></label>
+                    <input asp-for="HireDate" class="form-control" />
+                    <span asp-validation-for="HireDate" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="form-group">
+                    <label class="control-label">Department</label>
+                    <select asp-for="DepartmentID" class="form-control" asp-items="ViewBag.DepartmentID"></select>
+                    <span asp-validation-for="DepartmentID" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Role</label>
+                    <select asp-for="RoleID" class="form-control" asp-items="ViewBag.RoleID"></select>
+                    <span asp-validation-for="RoleID" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Position</label>
+                    <select asp-for="PositionID" class="form-control" asp-items="ViewBag.PositionID"></select>
+                    <span asp-validation-for="PositionID" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Branch</label>
+                    <select asp-for="BranchID" class="form-control" asp-items="ViewBag.BranchID"></select>
+                    <span asp-validation-for="BranchID" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Line Manager</label>
+                    <select asp-for="LineManagerID" class="form-control" asp-items="ViewBag.LineManagerID">
+                        <option selected="true" disabled="disabled">--- Select Line Manager ---</option>
+                    </select>
+                    <span asp-validation-for="LineManagerID" class="text-danger"></span>
+                </div>
+                <!-- File input for employee photo -->
+                <div class="form-group">
+                    <label for="Photo">Upload Photo</label>
+                    <input asp-for="Photo" class="form-control" type="file" name="photoFile" />
+                </div>
+                @if (Model.Photo != null)
+                {
+                    <img src="@Model.Photo" alt="Employee Photo" class="img-thumbnail" width="150" />
+                }
+                else
+                {
+                    <p>No photo available</p>
+                }
+            </div>
+        </div>
+        <div class="form-group mt-3 text-center">
+            <input type="submit" value="Save Changes" class="btn btn-primary" />
+        </div>
+    </div>
+</form>
+<!-- Include shared bottom -->
+@await Html.PartialAsync("_SharedBottom")
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

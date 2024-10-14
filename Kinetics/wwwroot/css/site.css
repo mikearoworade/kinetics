@@ -1,0 +1,100 @@
+:root {
+    --primary: #0047AB;
+    --blue: #0000bf;
+    --white: #ffffff;
+    --black: #000;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+  font-size: 14px;
+}
+
+.vc-navbar-list li a {
+    color: #0047AB;
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.home-content {
+    padding-top: 75px;
+}
+
+.vc-navbar {
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    /*height: 70px;*/
+    width: 100%;
+    z-index: 100;
+}
+
+.vc-navbar-list li a {
+    color: #0047AB !important;
+    font-weight: bold;
+}
+
+.vc-navbar-list li a:hover {
+    color: #00008B !important;
+}
+
+.vc-brand-color {
+    color: #0047AB !important;
+    font-weight: bold;
+}
+
+.vc-container {
+    width: 100%;
+}
+
+.vc-sidebar {
+    padding-top: 75px;
+    position: fixed;
+    width: 220px;
+    height: 100%;
+    background-color: var(--primary);
+}
+
+.vc-content {
+    padding-top: 75px;
+    margin-left: 220px;
+    width: auto;
+    position: relative;
+    overflow: auto;
+}
+
+.vc-sidebar-list li {
+    list-style-type: none;
+}
+
+.vc-sidebar-list li a {
+    color: #fff;
+    cursor: pointer;
+}
+
+.vc-sidebar-list li a:hover {
+    color: #c9c3c3;
+}
+
+th, .vc-table-action {
+    white-space: nowrap;
+}

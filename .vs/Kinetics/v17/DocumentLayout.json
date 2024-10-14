@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Vastcrown_Inc\\Software_Engineering\\c#\\Kinetics\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7B8ED9-2F31-44D9-ADF9-7A211A810270}|Kinetics\\Kinetics.csproj|c:\\vastcrown_inc\\software_engineering\\c#\\kinetics\\kinetics\\views\\roles\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE7B8ED9-2F31-44D9-ADF9-7A211A810270}|Kinetics\\Kinetics.csproj|solutionrelative:kinetics\\views\\roles\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7B8ED9-2F31-44D9-ADF9-7A211A810270}|Kinetics\\Kinetics.csproj|c:\\vastcrown_inc\\software_engineering\\c#\\kinetics\\kinetics\\views\\salaries\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE7B8ED9-2F31-44D9-ADF9-7A211A810270}|Kinetics\\Kinetics.csproj|solutionrelative:kinetics\\views\\salaries\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7B8ED9-2F31-44D9-ADF9-7A211A810270}|Kinetics\\Kinetics.csproj|c:\\vastcrown_inc\\software_engineering\\c#\\kinetics\\kinetics\\views\\roles\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE7B8ED9-2F31-44D9-ADF9-7A211A810270}|Kinetics\\Kinetics.csproj|solutionrelative:kinetics\\views\\roles\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7B8ED9-2F31-44D9-ADF9-7A211A810270}|Kinetics\\Kinetics.csproj|c:\\vastcrown_inc\\software_engineering\\c#\\kinetics\\kinetics\\views\\roles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE7B8ED9-2F31-44D9-ADF9-7A211A810270}|Kinetics\\Kinetics.csproj|solutionrelative:kinetics\\views\\roles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Vastcrown_Inc\\Software_Engineering\\c#\\Kinetics\\Kinetics\\Views\\Roles\\Create.cshtml",
+              "RelativeDocumentMoniker": "Kinetics\\Views\\Roles\\Create.cshtml",
+              "ToolTip": "C:\\Vastcrown_Inc\\Software_Engineering\\c#\\Kinetics\\Kinetics\\Views\\Roles\\Create.cshtml",
+              "RelativeToolTip": "Kinetics\\Views\\Roles\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T16:19:29.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Vastcrown_Inc\\Software_Engineering\\c#\\Kinetics\\Kinetics\\Views\\Roles\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Kinetics\\Views\\Roles\\Edit.cshtml",
+              "ToolTip": "C:\\Vastcrown_Inc\\Software_Engineering\\c#\\Kinetics\\Kinetics\\Views\\Roles\\Edit.cshtml",
+              "RelativeToolTip": "Kinetics\\Views\\Roles\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T16:07:44.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Vastcrown_Inc\\Software_Engineering\\c#\\Kinetics\\Kinetics\\Views\\Roles\\Index.cshtml",
+              "RelativeDocumentMoniker": "Kinetics\\Views\\Roles\\Index.cshtml",
+              "ToolTip": "C:\\Vastcrown_Inc\\Software_Engineering\\c#\\Kinetics\\Kinetics\\Views\\Roles\\Index.cshtml",
+              "RelativeToolTip": "Kinetics\\Views\\Roles\\Index.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T16:03:09.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Vastcrown_Inc\\Software_Engineering\\c#\\Kinetics\\Kinetics\\Views\\Salaries\\Index.cshtml",
+              "RelativeDocumentMoniker": "Kinetics\\Views\\Salaries\\Index.cshtml",
+              "ToolTip": "C:\\Vastcrown_Inc\\Software_Engineering\\c#\\Kinetics\\Kinetics\\Views\\Salaries\\Index.cshtml",
+              "RelativeToolTip": "Kinetics\\Views\\Salaries\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T16:03:08.046Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

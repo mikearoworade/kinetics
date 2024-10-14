@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Kinetics.Models.Salary>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!-- Include shared header -->
+@await Html.PartialAsync("_SharedTop")
+<h4>Salaries</h4>
+<p>
+    <a asp-action="Create">New Staff Salary</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.GrossSalary)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EffectiveFrom)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EffectiveTo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Employee)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.GrossSalary)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EffectiveFrom)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EffectiveTo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Employee.Email)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.SalaryID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.SalaryID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.SalaryID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<!-- Include shared bottom -->
+@await Html.PartialAsync("_SharedBottom")
